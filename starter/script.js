@@ -15,6 +15,8 @@ $("#search-button").on("click", function (event) {
   
     // Here we construct our URL
     var queryURL = "https://api.openweathermap.org/data/2.5/forecast?q=" + city + "&appid=" + APIKey;
+
+    console.log("https://api.openweathermap.org/data/2.5/forecast?q=london&appid=" + APIKey)
   
     fetch(queryURL)
       .then(function (response) {
@@ -22,12 +24,7 @@ $("#search-button").on("click", function (event) {
       })
       .then(function (data) {
 
-
         $("#forecast").text(JSON.stringify(data));
 
-
-
       });
-  
-
 });
