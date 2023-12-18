@@ -1,0 +1,25 @@
+.headerStyle {
+    background: url("../assets/weatherclouds.png");
+    background-size: cover;
+
+}
+
+.titleStyle {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 60px;
+}
+
+.cardStyle {
+    background-color: rgb(218, 203, 203);
+
+}
+
+.todayStyle {
+    background-color: rgb(97, 97, 241);
+
+}
+
+.forecastStyle {
+    background-color: rgb(215, 201, 144);
+
+}

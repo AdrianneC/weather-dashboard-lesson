@@ -26,5 +26,11 @@ $("#search-button").on("click", function (event) {
 
         $("#forecast").text(JSON.stringify(data));
 
+  
+
       });
 });
+
+
+
+
